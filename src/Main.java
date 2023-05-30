@@ -89,7 +89,7 @@ public class Main {
         int totalWeight = (banana * weightBanana) + ((milkMl / 100) * weightMilkOneHundredMl) + (iceCreamBloсks * weightIceCreamBlock)
                 + (eggs * weightEgg);
         System.out.println("Вес завтрака в граммах равен " + totalWeight);
-        double totalWeightInKg = totalWeight / 1000;
+        double totalWeightInKg = totalWeight / 1000D;
         System.out.println("Вес завтрака в килограммах равен " + totalWeightInKg);
     }
     public static void task7(){
